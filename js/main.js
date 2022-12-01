@@ -26,12 +26,12 @@ class Player {
     }
 
     moveLeft() {
-        this.positionX = this.positionX - 5;
+        this.positionX--;
         this.domElement.style.left = this.positionX + "vw";
     }
 
     moveRight() {
-        this.positionX = this.positionX + 5;
+        this.positionX++;
         this.domElement.style.left = this.positionX + "vw";
     }
 }
