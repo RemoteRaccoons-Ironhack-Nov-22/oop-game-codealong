@@ -93,6 +93,7 @@ setInterval(() => {
 
 
 
+
 //Move obstacles & detect collision
 setInterval(() => {
     obstacles.forEach( (obstacleInstance) => {
@@ -107,7 +108,8 @@ setInterval(() => {
             player.positionY < obstacleInstance.positionY + obstacleInstance.height &&
             player.height + player.positionY > obstacleInstance.positionY
         ) {
-            console.log("collision detected!!");
+            // console.log("collision detected!!");
+            location.href = 'gameover.html';
         }
     });
 }, 50)
