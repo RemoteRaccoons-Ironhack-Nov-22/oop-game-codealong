@@ -111,6 +111,12 @@ setInterval(() => {
             // console.log("collision detected!!");
             location.href = 'gameover.html';
         }
+
+        //check if we need to remove current obstacle
+        if(obstacleInstance.positionY <= 0 - obstacleInstance.height ){            
+            obstacleInstance.domElement.remove(); //remove dom element
+            obstacles.shift(); //remove from the array
+        }
     });
 }, 50)
 
