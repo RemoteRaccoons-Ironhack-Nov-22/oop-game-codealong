@@ -13,7 +13,7 @@ class Game {
         setInterval(() => {
             const newObstacle = new Obstacle();
             this.obstacles.push(newObstacle);
-        }, 3000);
+        }, 4000);
 
 
         //Update obstacles
