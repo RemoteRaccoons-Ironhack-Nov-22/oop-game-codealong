@@ -11,7 +11,7 @@ Move player with arrow keys :)
 
 # Demo
 
-coming soon.
+[https://remoteraccoons-ironhack-nov-22.github.io/oop-game-codealong/](https://remoteraccoons-ironhack-nov-22.github.io/oop-game-codealong/)
 
 
 # To-Do
